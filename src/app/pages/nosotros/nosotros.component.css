@@ -1,0 +1,78 @@
+/*SOBRE NOSOTROS*/
+#sobreNosotros {
+    max-width: 1100px;
+    margin: auto;
+    padding: 100px 15px;
+    color: #111135;
+    display: flex;
+}
+
+.contenedor-foto {
+    max-width: 400px;
+    margin-right: 80px;
+}
+
+.contenedor-foto img{
+    padding: 20px;
+    width: 100%;
+    border-radius: 20px;
+    background-color: #f3f3f3;
+}
+.contenedor-foto img:hover{
+    opacity: 0.9;
+}
+
+.sobreNosotros{
+    margin: 0 40px;
+}
+
+.titulo-seccion{
+    font-size: 70px;
+    text-transform: uppercase;
+    color: #111135;
+    text-decoration: underline;
+    text-decoration-color: #d3d3d3;
+    text-decoration-thickness: 5px;
+}
+
+.sobreNosotros h2{
+    font-size: 32px;
+    font-weight: bold;
+    margin: 20px 0;
+    letter-spacing: 2px;
+}
+
+#sobreNosotros .sobreNosotros h2 span{
+    color: red;
+}
+
+#sobreNosotros .sobreNosotros h3{
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+#sobreNosotros .sobreNosotros p{
+    font-size: 14px;
+    line-height: 25px;
+    color: #565656;
+    margin-bottom: 12px;
+}
+
+#sobreNosotros .sobreNosotros a{
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+    border-radius: 30px;
+    padding: 10px 20px;
+    border: 1px solid #000;
+    margin-top: 30px;
+    transition: .5s;
+}
+
+#sobreNosotros .sobreNosotros a:hover{
+    background-color: red;
+    color: #fff;
+}

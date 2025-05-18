@@ -1,0 +1,57 @@
+/* PRESENTACIÓN */
+.presentacion {
+    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url("/img/fondo-inicio.JPG");
+    background-size: cover;
+    height: 100vh;
+    height: 100vh;
+    margin: auto;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.presentacion .bienvenida{
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-shadow: 0px 0px 10px white,
+                 0px 0px 20px white;
+}
+
+.presentacion h2{
+    font-size: 55px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.presentacion span{
+    font-size: 25px;
+    color: red;
+}
+
+.presentacion .descripcion{
+    max-width: 700px;
+    margin: 25px auto;
+    font-size: 18px;
+    text-align: center;
+}
+
+.presentacion a{
+    text-decoration: none;
+    display: inline-block;
+    margin: 25px;
+    padding: 20px 25px;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: .5s;
+}
+
+.presentacion a:hover{
+    background-color: red;
+}

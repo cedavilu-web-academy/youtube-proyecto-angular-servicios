@@ -1,0 +1,17 @@
+<!-- CURSOS -->
+<section id="cursos">
+    <h3 class="titulo-seccion">MIS cursos</h3>
+    <div class="fila">
+        <div class="cursos" *ngFor = "let curso of cursos">
+            <span class="icono"><i class="fa-solid fa-code"></i></span>
+            <h4>{{curso.nombre}}</h4>
+            <hr>
+            <ul class="cursos-tag">
+                <li>{{curso.tecnologias.join(', ')}}</li>
+                
+            </ul>
+            <p>{{curso.descripcion}}</p>
+        </div>
+        
+    </div>
+</section>

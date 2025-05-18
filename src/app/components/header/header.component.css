@@ -1,0 +1,60 @@
+/*ENCABEZADOO*/
+.logo{
+    width: 10%;
+}
+.encabezado {
+    background-color: rgba(0, 0, 0, .8);
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    top: 0;
+}
+
+.encabezado .contenido-header {
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.encabezado .contenido-header h1 {
+    text-align: center;
+    color: red;
+}
+
+.encabezado .contenido-header nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.encabezado .contenido-header nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    margin: 0 12px;
+    font-weight: 400;
+    transition: .5s;
+}
+
+.encabezado .contenido-header nav ul li a:hover{
+    color: red;
+}
+
+.encabezado .contenido-header .redes a{
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    margin-left: 10px;
+    transition: .5s;
+}
+
+.encabezado .contenido-header .redes a:hover{
+    color: red;
+}
+
+#icono-nav {
+    color: #fff;
+    display: none;
+}
